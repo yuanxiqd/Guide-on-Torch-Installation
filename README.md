@@ -30,4 +30,18 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > ## Problem 5: Register the new env in the kernel of jupyter notebook
 > 1. Solution: python -m ipykernel install --user --name <EnvName>
 
+> ## Problem 6: Eable ssl in WSL2
+> 1. Edit: `sudo vim /etc/ssh/sshd_config`
+> 2. Update or Uncomment:
+> ``` 
+> Port 8888 # any port ID you like
+> AddressFamily any
+> ListenAddress 0.0.0.0
+> ListenAddress ::
+> PasswordAuthentication yes
+> ```
+> 3. Restart sshd: `sudo service ssh --full-restart`
+> 4. Access by ssh: `ssh username@localhost -p <PortNumber>`
+> 5. Reference: [Zhihu Technical Article](https://zhuanlan.zhihu.com/p/534373868)
+
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
