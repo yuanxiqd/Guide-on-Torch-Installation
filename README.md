@@ -27,4 +27,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > 1. Tsinghua Mirror: [Anaconda Settings](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 > 2. SUSTech Mirror: [Anaconda Settings](https://mirrors.sustech.edu.cn/help/anaconda.html#configuration)
 
+> ## Problem 5: Register the new env in the kernel of jupyter notebook
+> 1. Solution: python -m ipykernel install --user --name <EnvName>
+
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
