@@ -16,7 +16,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > 2. Kill program: `kill -9 PIP`
 > 3. Check again whether some port is still used now: jupyter notebook list
 
-> ## Problem 3: WSL1 is preferable in terms of the local access
+> ## Problem 3: WSL1 vs. WSL2
 > 1. WSL1 is convenient for the local access in terms of using jupyter notebook but is not convenient for the missing function of GPU computing - `torch.cuda.is_available()`.
 > 2. WSL2 enbles the GPU computing which means `torch.cuda.is_available()` will be true. However, linux system in WSL2 adopts the NAT net structure that results in the inconvenient use of other terminals in LAN.
 > 3. Solution: change the WSL version without uninstalling and reinstalling operations: `wsl --set-version <distribution name> <versionNumber>`
