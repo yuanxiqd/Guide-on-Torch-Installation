@@ -44,4 +44,8 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > 4. Access by ssh: `ssh username@localhost -p <PortNumber>`
 > 5. Reference: [Zhihu Technical Article](https://zhuanlan.zhihu.com/p/534373868)
 
+> ## Problem 7: go: github.com/pkg/errors@v0.9.1: Get `https://proxy.golang.org/github.com/pkg/errors/@v/v0.9.1.mod`: dial tcp 142.251.43.17:443: i/o timeout
+> 1. Solution: `make build GOPROXY=https://goproxy.cn`
+> 2. Reference: [Zhihu Technical Article](https://blog.csdn.net/u013288190/article/details/117319681)
+
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
