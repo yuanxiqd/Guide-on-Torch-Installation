@@ -19,7 +19,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > ## Problem 3: WSL1 is preferable in terms of the local access
 > 1. Default Settings: wsl --set-default-version <Version>
 > 2. Parameter - Version: 1 or 2
-> 3. Source: [Basic Command of WSL](https://docs.microsoft.com/zh-cn/windows/wsl/basic-commands)
+> 3. Microsoft Source: [Basic Command of WSL](https://docs.microsoft.com/zh-cn/windows/wsl/basic-commands)
 
 > ## Problem 4: Appropriate setting of /home/username/.condarc will speed up the download of relevant python packages
 > 1. Tsinghua Mirror: [Anaconda Settings](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
