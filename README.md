@@ -50,7 +50,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > 3. Configure Port Mapping: `netsh interface portproxy add v4tov4 listenport=8888 listenaddress=0.0.0.0 connectport=8888 connectaddress=localhost`
 > 4. I also pack these two sentences into a bat file so that you can run it as an administrator every time you need to access your jupyter notebook in other computers of your LAN. Download it [here](https://github.com/yuanxiqd/Guide-on-Torch-Installation/blob/5a182c99734e0464fe94edf953e32dc60778ea84/setup%20local%20access%20for%20WSL2.bat). Of course, you can edit it to follow your own settings.
 > 5. Reference: 
-> > [1] [Zhihu Technical Article](https://zhuanlan.zhihu.com/p/425312804)
+> > [1] [Zhihu Technical Article](https://zhuanlan.zhihu.com/p/425312804)\
 > > [2] [Microsoft Technical Article](https://github.com/microsoft/WSL/issues/4150)
 
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
