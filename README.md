@@ -53,4 +53,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > > [1] [Zhihu Technical Article](https://zhuanlan.zhihu.com/p/425312804)\
 > > [2] [Microsoft Technical Article](https://github.com/microsoft/WSL/issues/4150)
 
+> ## Problem 8: Tensorflow
+> 1. pip install --extra-index-url https://pypi.nvidia.com tensorflow[and-cuda]
+
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
