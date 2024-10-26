@@ -56,4 +56,7 @@ Something will be displayed here to help guys smoothly install the torch in anac
 > ## Problem 8: Could not find cuda drivers on your machine, GPU will not be used.
 > 1. pip install --extra-index-url https://pypi.nvidia.com tensorflow[and-cuda]
 
+> ## Problem 9: Installing Tf hub without upgrading Tensorflow
+> 1. pip install --no-deps tensorflow_hub
+
 Note: The aforementioned problem sets including their potential solutions are almost collected from different sources. I always try to attach the source link for each item so as to help someone check the initial technical article. If you still have some questions about this, please feel free to contact me here or by [Email](lyqiaodong@gmail.com).
